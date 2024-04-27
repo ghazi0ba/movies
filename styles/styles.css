@@ -82,6 +82,24 @@ body.loading .loader {
     flex: 0 0 160px;
     font-size: 24px;
 }
+.login-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Display as inline-block */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
 
 .main-header__search {
     width: calc(100% - 320px);
@@ -362,3 +380,4 @@ main.content {
 .movie-item__meta__imdb-link a:hover {
     text-decoration: underline;
 }
+
