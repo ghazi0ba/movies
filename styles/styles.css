@@ -163,6 +163,9 @@ main.content {
 }
 
 .content__result__next-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background: #d5475d;
     border: none;
     color: #f4f4f4;
